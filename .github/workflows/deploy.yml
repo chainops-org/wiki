@@ -19,5 +19,5 @@ jobs:
         username: ${{ secrets.WIKI_USER }}
         password: ${{ secrets.WIKI_PASS }}
         port: 22
-        script: whoami
+        script: cd ~/chainops/wiki && git pull origin master
 
