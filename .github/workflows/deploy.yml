@@ -9,12 +9,15 @@ on:
 
 jobs:
   deploy:
-    name: executing remote ssh commands using password
-    uses: appleboy/ssh-action@master
-    with:
-      host: ${{ secrets.WIKI_HOST }}
-      username: ${{ secrets.WIKI_USER }}
-      password: ${{ secrets.WIKI_PASS }}
-      port: 22
-      script: whoami
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.WIKI_HOST }}
+        username: ${{ secrets.WIKI_USER }}
+        password: ${{ secrets.WIKI_PASS }}
+        port: 22
+        script: whoami
 
