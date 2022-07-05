@@ -1,0 +1,23 @@
+name: Publish on Docker Hub and Deploy v1
+
+on:
+#   release:
+#     types: [published]
+  push:
+    branches: [ master ]
+  # Запуск только при публиковании нового релиза
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: [ubuntu-latest]
+    steps:
+    - name: ls -a via ssh
+      uses: garygrossgarten/github-action-ssh@release
+      with:
+        command: |
+            cd ~/chainops/wiki && git pull origin master
+        host: ${{ secrets.DEV_HOST }}
+        username: ${{ secrets.WIKI_USER }}
+        privateKey: ${{ secrets.WIKI_KEY }}
+
