@@ -1,8 +1,8 @@
 ---
 sidebar_position: 0
-id: themes-overview
-sidebar_label: Themes overview
-slug: /api/themes
+id: ssv-overview
+sidebar_label: SSV overview
+slug: /ssv/overview
 ---
 
 ## Обзор сети
