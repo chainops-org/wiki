@@ -13,7 +13,7 @@
 
 Каждый раз, когда происходит такое событие, компоненты баланса рассчитываются задним числом до текущего состояния, и делается новый снимок для использования в будущих расчетах.
 
-![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/pasted_image_0111.jpg)
+![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/pasted_image_0111.jpg)
 
 
 Баланс счета состоит из 3 переменных и рассчитывается по:
@@ -74,7 +74,7 @@
 
 Индексы хранятся отдельно для изменений сборов оператора и сети и представляют собой кривую изменения накопленных сборов с течением времени.
 
-![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/pasted%20image%200.png)
+![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/'pasted image 0.png')
 
 
 
