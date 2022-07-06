@@ -1,5 +1,5 @@
 ---
 sidebar_position: 0
-slug: /protocol
+slug: /ssv.network
 ---
 ## Тестовая группа
