@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'ChainOps',
   tagline: 'You are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wiki.chainops.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
