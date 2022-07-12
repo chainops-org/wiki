@@ -16,7 +16,7 @@ module.exports = {
  tutorialSidebar: [
     'intro',
     {
-      type: 'doc', id: 'Guides/index'б
+      type: 'doc', id: 'accounts/index',
       label: 'Аккаунты',
     },
   ],
