@@ -40,13 +40,19 @@
 
 * «Скорость сжигания» — это скорость, с которой учетная запись тратит SSV на блок, рассчитывается по следующей формуле:
 
-![liquidation](/img/ssv/Burn.png)
+:::info
+
+$$
+burn\:rate = expenses_{b} - revenue_{b}
+$$
+
+:::
 
 
 Где:
 
-* *expensesb* - все расходы валидатора аккаунта (платежи оператора и комиссия сети) за блок
-* *revenueb* - весь заработок оператора аккаунта за блок
+* $expenses_{b}$ - все расходы валидатора аккаунта (платежи оператора и комиссия сети) за блок
+* $revenue_{b}$ - весь заработок оператора аккаунта за блок
 
 **Ликвидация**
 
@@ -57,12 +63,18 @@
 
 * Ликвидация рассчитывается по:
 
-![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/%D0%9B%D0%B8%D0%BA%D0%B2%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D1%8F.png)
+:::info
+
+$$
+liquidatable = balance < burn\:rate * liquidation\:threshold\:period
+$$
+
+:::
 
 Где:
 
 * *balance* - баланс счета
-* *burnrate* - количество токенов SSV, оплачиваемых аккаунтом за блок (см. выше)
+* *burn rate* - количество токенов SSV, оплачиваемых аккаунтом за блок (см. выше)
 * *period liquidation threshold period* - количество блоков
 
 
@@ -85,11 +97,17 @@
 
 * Достаточный баланс (ликвидационное обеспечение) для реактивации рассчитывается по формуле:
 
-![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/reactivebalance.png)
+:::info
+
+$$
+reactivation\:balance >  expenses_{b} * liquidation\:threshold\:period
+$$
+
+:::
 
 Где: 
 
-* *expensesb* - все расходы валидатора аккаунта (платежи оператора и комиссия сети) за блок
+* $expenses_{b}$ - все расходы валидатора аккаунта (платежи оператора и комиссия сети) за блок
 * *period liquidation threshold period* - количество блоков
 
 **Пример сценария ликвидации**
