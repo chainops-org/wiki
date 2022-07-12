@@ -24,8 +24,8 @@ module.exports = {
         type: 'category',
         label: 'Введение',
         dirName: 'ssv.network/Introduction'
-        link: {type: 'doc', id: 'ssv.network/Introduction/overview'},
-        //items: ['ssv.network/Introduction/tech_overview', 'ssv.network/Introduction/ssv_toke'],
+        //link: {type: 'doc', id: 'ssv.network/Introduction/overview'},
+        items: ['ssv.network/Introduction/tech_overview', 'ssv.network/Introduction/ssv_toke'],
        },
       ]
     }
