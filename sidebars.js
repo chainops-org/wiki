@@ -23,7 +23,7 @@ module.exports = {
         type: 'category',
         label: 'Введение',
         link: {type: 'doc', id: 'ssv.network/Introduction/overview'},
-        items: ['ssv.network/Introduction/tech_overview', 'ssv.network/Introduction/ssv_toke'],
+        //items: ['ssv.network/Introduction/tech_overview', 'ssv.network/Introduction/ssv_toke'],
        },
       ]
     }
