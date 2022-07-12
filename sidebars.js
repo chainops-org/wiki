@@ -24,9 +24,9 @@ module.exports = {
         label: 'Введение',
         link: {type: 'doc', id: 'ssv.network/Introduction/overview'},
         items: ['tech_overview', 'ssv_toke'],
-       }
-      
-    },
+       },
+      ]
+    }
   ],
 
   // But you can create a sidebar manually
