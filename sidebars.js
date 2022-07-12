@@ -16,7 +16,7 @@ module.exports = {
  tutorialSidebar: [
     'intro',
     {
-      type: 'doc', id: 'accounts/index',
+      type: 'doc', id: 'ssv.network/Accounts/index',
       label: 'Аккаунты',
     },
   ],
