@@ -40,7 +40,7 @@
 
 * «Скорость сжигания» — это скорость, с которой учетная запись тратит SSV на блок, рассчитывается по следующей формуле:
 
-![Alt text](https://github.com/chainops-org/wiki/blob/master/docs/ssv.network/protocol/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/Burn.png)
+![liquidation](/img/ssv/Burn.png)
 
 
 Где:
