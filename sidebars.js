@@ -17,7 +17,7 @@ module.exports = {
     'intro',
     {
       type: 'category', 
-      label: 'SSV',
+      label: 'ssv.network',
       items: [
        {
         type: 'category',
