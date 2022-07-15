@@ -82,7 +82,29 @@ module.exports = {
                     type: 'category',
                     label: 'Глоссарий',
                     link: {type: 'doc', id: 'ssv.network/Glossary/index'},
-                    items:[]
+                    items: []
+                },
+                {
+                    type: 'category',
+                    label: 'Разработчикам',
+                    items: [
+                        {
+                            type: 'category',
+                            label: 'Введение',
+                            link: {type: 'doc', id: 'ssv.network/Dev/index'},
+                            items: []
+                        },
+                        {
+                            type: 'category',
+                            label: 'Руководство по интеграции',
+                            link: {type: 'generated-index'},
+                            items: [
+                                'ssv.network/Dev/Integration/staking_pools',
+                                'ssv.network/Dev/Integration/operation_stage',
+                                'ssv.network/Dev/Integration/maintenance_stage',
+                            ]
+                        },
+                    ]
                 },
             ]
 
