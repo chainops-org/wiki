@@ -88,19 +88,36 @@ module.exports = {
                     type: 'category',
                     label: 'Разработчикам',
                     items: [
+                        'ssv.network/Dev/introduction',
                         {
                             type: 'category',
-                            label: 'Введение',
+                            label: 'Руководство по интеграции',
                             link: {type: 'generated-index'},
                             items: [
                                 {
                                     type: 'category',
-                                    label: 'Руководство по интеграции',
+                                    label: 'Стейкинг пулы',
                                     link: {type: 'doc', id: 'ssv.network/Dev/Integration/StakingPools/index'},
                                     items: [
                                         'ssv.network/Dev/Integration/StakingPools/initializations_tage',
                                         'ssv.network/Dev/Integration/StakingPools/operation_stage',
                                         'ssv.network/Dev/Integration/StakingPools/maintenance_stage',
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Инструменты',
+                            link: {type: 'generated-index'},
+                            items: [
+                                {
+                                    type: 'category',
+                                    label: 'Дистрибьютор ключей SSV',
+                                    link: {type: 'doc', id: 'ssv.network/Dev/Tools/KeyDistributor/index'},
+                                    items: [
+                                        'ssv.network/Dev/Tools/KeyDistributor/cli_interface',
+                                        'ssv.network/Dev/Tools/KeyDistributor/sdk'
                                     ]
                                 },
                             ]
