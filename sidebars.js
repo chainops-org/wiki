@@ -91,19 +91,21 @@ module.exports = {
                         {
                             type: 'category',
                             label: 'Введение',
-                            link: {type: 'doc', id: 'ssv.network/Dev/index'},
-                            items: []
-                        },
-                        {
-                            type: 'category',
-                            label: 'Руководство по интеграции',
                             link: {type: 'generated-index'},
                             items: [
-                                'ssv.network/Dev/Integration/staking_pools',
-                                'ssv.network/Dev/Integration/operation_stage',
-                                'ssv.network/Dev/Integration/maintenance_stage',
+                                {
+                                    type: 'category',
+                                    label: 'Руководство по интеграции',
+                                    link: {type: 'doc', id: 'ssv.network/Dev/Integration/StakingPools/index'},
+                                    items: [
+                                        'ssv.network/Dev/Integration/StakingPools/initializations_tage',
+                                        'ssv.network/Dev/Integration/StakingPools/operation_stage',
+                                        'ssv.network/Dev/Integration/StakingPools/maintenance_stage',
+                                    ]
+                                },
                             ]
                         },
+
                     ]
                 },
             ]
