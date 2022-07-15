@@ -120,6 +120,12 @@ module.exports = {
                                         'ssv.network/Dev/Tools/KeyDistributor/sdk'
                                     ]
                                 },
+                                {
+                                    type: 'link',
+                                    label: 'SSV API',
+                                    href: 'https://ssv-api.ssv.network/documentation/#/',
+
+                                }
                             ]
                         },
 
