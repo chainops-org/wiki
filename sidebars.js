@@ -128,6 +128,24 @@ module.exports = {
                                 }
                             ]
                         },
+                        {
+                            type: 'category',
+                            label: 'Смарт контракты',
+                            link: {type: 'doc', id: 'ssv.network/Dev/SmartContracts/index'},
+                            items: [
+                                'ssv.network/Dev/SmartContracts/account_methods',
+                                'ssv.network/Dev/SmartContracts/operator_methods',
+                                'ssv.network/Dev/SmartContracts/validators_methods',
+                                'ssv.network/Dev/SmartContracts/liquidators_methods',
+                                'ssv.network/Dev/SmartContracts/governance_methods',
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Тестнет',
+                            link: {type: 'doc', id: 'ssv.network/Dev/Testnet/index'},
+                            items:[]
+                        }
 
                     ]
                 },
