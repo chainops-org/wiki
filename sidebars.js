@@ -78,6 +78,12 @@ module.exports = {
                         'ssv.network/Stakers/offboarding',
                     ]
                 },
+                {
+                    type: 'category',
+                    label: 'Глоссарий',
+                    link: {type: 'doc', id: 'ssv.network/Glossary/index'},
+                    items:[]
+                },
             ]
 
         },
