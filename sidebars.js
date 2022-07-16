@@ -158,13 +158,17 @@ module.exports = {
                             label: 'Нода оператора',
                             link: {type: 'doc', id: 'ssv.network/Node/OperatorNode/index'},
                             items: [
+                                'ssv.network/Node/OperatorNode/installation',
+                                'ssv.network/Node/OperatorNode/registration',
                                 {
                                     type: 'category',
                                     label: 'Эксплуатация',
-                                    link: {type: 'doc', id: 'ssv.network/Node/OperatorNode/index'},
+                                    link: {type: 'generated-index'},
                                     items: [
-                                        'ssv.network/Node/OperatorNode/installation',
-                                        'ssv.network/Node/OperatorNode/registration',
+                                        'ssv.network/Node/OperatorNode/Maintenance/configuration',
+                                        'ssv.network/Node/OperatorNode/Maintenance/grafana',
+                                        'ssv.network/Node/OperatorNode/Maintenance/troubleshooting',
+
                                     ]
                                 },
                             ]
