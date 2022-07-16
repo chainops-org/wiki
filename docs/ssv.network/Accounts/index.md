@@ -26,7 +26,11 @@
 
 :::info
 
-$$ Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee}} + N_{fee}) * LTP $$
+$$ 
+
+Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee}} + N_{fee}) * LTP 
+
+$$
 
 :::
 
@@ -45,7 +49,11 @@ $$ Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee
 
 :::info
 
-$$ Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee}} + N_{fee}) * Period $$
+$$ 
+
+Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee}} + N_{fee}) * Period 
+
+$$
 
 :::
 
@@ -82,7 +90,9 @@ $$ Liquidatio\:Collateral = (O_{1_{fee}} + O_{2_{fee}} + O_{3_{fee}} + O_{4_{fee
 :::info
 
 $$ 
+
   Ranway\:Change = \frac{Amount}{Burn\:Rate}
+
 $$
 
 :::

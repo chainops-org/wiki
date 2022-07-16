@@ -12,7 +12,9 @@
 :::info
 
 $$
+
 Reactivation\:balance = expenses_b * liquidation\;threshold\;period
+
 $$
 
 :::
