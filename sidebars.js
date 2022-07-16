@@ -18,11 +18,11 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Введение',
-                    link: {type: 'doc', id: 'ssv.network/Introduction/index'},
+                    link: {type: 'doc', id: 'ssv.network/Learn/Introduction/index'},
                     items: [
-                        'ssv.network/Introduction/tech_overview',
-                        'ssv.network/Introduction/network_overview',
-                        'ssv.network/Introduction/ssv_token',
+                        'ssv.network/Learn/Introduction/tech_overview',
+                        'ssv.network/Learn/Introduction/network_overview',
+                        'ssv.network/Learn/Introduction/ssv_token',
                     ]
                 },
                 {
@@ -33,11 +33,11 @@ module.exports = {
                         {
                             type: 'category',
                             label: 'Токеномика',
-                            link: {type: 'doc', id: 'ssv.network/Protocol/tokenomic/index'},
+                            link: {type: 'doc', id: 'ssv.network/Learn/Protocol/tokenomic/index'},
                             items: [
-                                'ssv.network/Protocol/tokenomic/Fees',
-                                'ssv.network/Protocol/tokenomic/Payments',
-                                'ssv.network/Protocol/tokenomic/Liquidations',
+                                'ssv.network/Learn/Protocol/tokenomic/Fees',
+                                'ssv.network/Learn/Protocol/tokenomic/Payments',
+                                'ssv.network/Learn/Protocol/tokenomic/Liquidations',
                             ]
                         },
                         {
@@ -55,33 +55,33 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Учетные записи',
-                    link: {type: 'doc', id: 'ssv.network/Accounts/index'},
+                    link: {type: 'doc', id: 'ssv.network/Learn/Accounts/index'},
                     items: [
-                        'ssv.network/Accounts/reactivation',
+                        'ssv.network/Learn/Accounts/reactivation',
                     ]
                 },
                 {
                     type: 'category',
                     label: 'Операторы',
-                    link: {type: 'doc', id: 'ssv.network/Operators/index'},
+                    link: {type: 'doc', id: 'ssv.network/Learn/Operators/index'},
                     items: [
-                        'ssv.network/Operators/update_fee',
-                        'ssv.network/Operators/оffboarding',
+                        'ssv.network/Learn/Operators/update_fee',
+                        'ssv.network/Learn/Operators/оffboarding',
                     ]
                 },
                 {
                     type: 'category',
                     label: 'Стейкеры',
-                    link: {type: 'doc', id: 'ssv.network/Stakers/index'},
+                    link: {type: 'doc', id: 'ssv.network/Learn/Stakers/index'},
                     items: [
-                        'ssv.network/Stakers/update_operator',
-                        'ssv.network/Stakers/offboarding',
+                        'ssv.network/Learn/Stakers/update_operator',
+                        'ssv.network/Learn/Stakers/offboarding',
                     ]
                 },
                 {
                     type: 'category',
                     label: 'Глоссарий',
-                    link: {type: 'doc', id: 'ssv.network/Glossary/index'},
+                    link: {type: 'doc', id: 'ssv.network/Learn/Glossary/index'},
                     items: []
                 },
                 {
@@ -144,9 +144,39 @@ module.exports = {
                             type: 'category',
                             label: 'Тестнет',
                             link: {type: 'doc', id: 'ssv.network/Dev/Testnet/index'},
-                            items:[]
+                            items: []
                         }
 
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Запуск ноды',
+                    items: [
+                        {
+                            type: 'category',
+                            label: 'Нода оператора',
+                            link: {type: 'doc', id: 'ssv.network/Node/OperatorNode/index'},
+                            items: [
+                                {
+                                    type: 'category',
+                                    label: 'Эксплуатация',
+                                    link: {type: 'doc', id: 'ssv.network/Node/OperatorNode/index'},
+                                    items: [
+                                        'ssv.network/Node/OperatorNode/installation',
+                                        'ssv.network/Node/OperatorNode/registration',
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Нода ликвидатора',
+                            link: {type: 'doc', id: 'ssv.network/Node/LiquidatorNode/index'},
+                            items: [
+                                'ssv.network/Node/LiquidatorNode/installation'
+                            ]
+                        },
                     ]
                 },
             ]
