@@ -26,3 +26,12 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+
+.btn{
+  text-align: center;
+  font-weight: bold;
+  color: var(--ifm-color-primary)
+}
