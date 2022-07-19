@@ -9,7 +9,7 @@
 Для вашей безопасности команда ChainOps рекомендует использовать адреса контрактов из официальной документации ssv.network
 
 :::
-<div class="ssv-table-2col">
+<div class="ssv-table ssv-table-2col">
   <div class="ssv-cell ssv-text-bold">
     <span>Контракт</span>
   </div>
@@ -80,7 +80,7 @@
 </div>
 
 #### Goerli Testnet
-<div class="ssv-table-2col">
+<div class="ssv-table ssv-table-2col">
   <div class="ssv-cell ssv-text-bold">
     <span>Контракт</span>
   </div>

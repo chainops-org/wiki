@@ -4,7 +4,7 @@ ___
 <br/>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -29,7 +29,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -55,7 +55,7 @@ ___
 <h3><span class="ssv-text-bg">deposit</span></h3>
 <br/>
 <span>Параметры вызова</span>
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -90,7 +90,7 @@ ___
 <h3><span class="ssv-text-bg">withdraw</span></h3>
 <br/>
 <span>Параметры вызова</span>
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -125,7 +125,7 @@ ___
 <h3><span class="ssv-text-bg">withdrawAll</span></h3>
 <br/>
 <span>Параметры вызова</span>
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -150,7 +150,7 @@ ___
 <h3><span class="ssv-text-bg">reactivateAccount</span></h3>
 <br/>
 <span>Параметры вызова</span>
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>

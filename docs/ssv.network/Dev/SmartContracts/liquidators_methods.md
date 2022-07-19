@@ -3,7 +3,7 @@ ___
 <h3><span class="ssv-text-bg">getAddressBurnRate</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -27,7 +27,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -52,7 +52,7 @@ ___
 <h3><span class="ssv-text-bg">isLiquidatable</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -76,7 +76,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -101,7 +101,7 @@ ___
 <h3><span class="ssv-text-bg">liquidate</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -126,7 +126,7 @@ ___
 <h3><span class="ssv-text-bg">isLiquidated</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -150,7 +150,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
