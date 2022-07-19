@@ -4,6 +4,12 @@ ___
 
 import {IconButton} from '@site/src/components/ssv/IconButton';
 
-import ssvLogoUrl from '@site/static/img/ssv/small_logo_ssv.ico';
+import ssvBtnUrl from '@site/static/img/ssv/btn_icon.ico';
 
-<IconButton to="https://app.prater.ssv.network/" imgSrc={ssvLogoUrl}>SSV Network</IconButton>
+<div class="ssv-btn-list">
+<IconButton to="/docs/ssv.network/node/operatornode/installation" imgSrc={ssvBtnUrl}>Установка</IconButton>
+
+<IconButton to="/docs/ssv.network/node/operatornode/registration" imgSrc={ssvBtnUrl}>Регистрация</IconButton>
+
+<IconButton to="/docs/ssv.network/node/operatornode/maintenance" imgSrc={ssvBtnUrl}>Эксплуатация</IconButton>
+</div>
