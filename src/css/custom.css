@@ -49,9 +49,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     border-bottom: 1px solid rgba(227, 232, 237, 1.00);;
 }
 
-.ssv-table-2col > .ssv-cell:nth-last-child(-n+2) {
-    border-bottom: none;
-}
 .ssv-table-2col > .ssv-cell:nth-child(2n) {
     border-right: none;
 }
@@ -65,9 +62,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     padding: 1rem;
 }
 
-.ssv-table-3col > .ssv-cell:nth-last-child(-n+3) {
-    border-bottom: none;
-}
 .ssv-table-3col > .ssv-cell:nth-child(3n) {
     border-right: none;
 }
