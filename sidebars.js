@@ -163,7 +163,7 @@ module.exports = {
                                 {
                                     type: 'category',
                                     label: 'Эксплуатация',
-                                    link: {type: 'generated-index'},
+                                    link: {type: 'generated-index', slug:'/ssv.network/node/operatornode/maintenance'},
                                     items: [
                                         'ssv.network/Node/OperatorNode/Maintenance/configuration',
                                         'ssv.network/Node/OperatorNode/Maintenance/grafana',
