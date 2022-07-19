@@ -6,31 +6,89 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
-
-.btn {
-  text-align: center;
-  font-weight: bold;
-  color: var(--ifm-color-primary);
+.ssv-text-bg {
+    background-color: rgba(245, 247, 249, 1.00);
 }
+
+.ssv-text-bold {
+    font-weight: bold;
+}
+
+.ssv-table-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ssv-table-2col > .ssv-cell {
+    padding: 1rem;
+}
+
+.ssv-cell{
+    border-right: 1px solid rgba(227, 232, 237, 1.00);;
+    border-bottom: 1px solid rgba(227, 232, 237, 1.00);;
+}
+
+.ssv-table-2col > .ssv-cell:nth-child(2n) {
+    border-right: none;
+}
+
+.ssv-table-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ssv-table-3col > .ssv-cell {
+    padding: 1rem;
+}
+
+.ssv-table-3col > .ssv-cell:nth-child(3n) {
+    border-right: none;
+}
+
+.ssv-marked-list__item{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.ssv-marked-list__icon-wrapper{
+    display: inline-flex;
+    background-color: rgb(27, 165, 248);
+    height: 18px;
+    width: 18px;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(27, 165, 248);
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.ssv-marked-list__icon{
+    color: rgb(255, 255, 255);
+}
+
+.ssv-marked-list__item-text{
+    margin-left: 0.5rem;
+}
+
+
+
+
