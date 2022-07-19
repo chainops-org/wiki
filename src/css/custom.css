@@ -40,7 +40,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.ssv-table-2col > .ssv-cell {
+.ssv-table-6col {
+    display: grid;
+    grid-template-columns: repeat(6, 15rem);
+    overflow-x: scroll;
+}
+
+.ssv-table > .ssv-cell {
     padding: 1rem;
 }
 
@@ -56,10 +62,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .ssv-table-3col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.ssv-table-3col > .ssv-cell {
-    padding: 1rem;
 }
 
 .ssv-table-3col > .ssv-cell:nth-child(3n) {
@@ -91,6 +93,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .ssv-btn-list > a:nth-child(1n){
     margin-top: 2rem;
+}
+
+.shadow-right-border{
+    box-shadow: 18px 0 18px -18px rgba(0, 0, 0, 0.5) inset, -18px 0 18px -18px rgba(0, 0, 0, 0.5) inset;
 }
 
 

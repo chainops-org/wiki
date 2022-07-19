@@ -68,7 +68,7 @@ yarn cli shares –keystore <KEYSTORE_FILE_FILE> –password <FILE_PASSWORD> –
 
 
 
-<div class="ssv-table-2col">
+<div class="ssv-table  ssv-table-2col">
   <div class="ssv-cell ssv-text-bold">
     <span>Команда</span>
   </div>
@@ -99,7 +99,7 @@ yarn cli shares –keystore <KEYSTORE_FILE_FILE> –password <FILE_PASSWORD> –
 Интерфейс командной строки предлагает различные команды в зависимости от того, что вы хотите сделать с инструментом.
 
 
-<div class="ssv-table-3col">
+<div class="ssv-table  ssv-table-3col">
   <div class="ssv-cell ssv-text-bold">
     <span>Аргумент</span>
   </div>
@@ -244,7 +244,7 @@ yarn cli shares –keystore <KEYSTORE_FILE_FILE> –password <FILE_PASSWORD> –
 Интерфейс командной строки предлагает различные команды в зависимости от того, что вы хотите сделать с инструментом.
 
 
-<div class="ssv-table-3col">
+<div class="ssv-table ssv-table-3col">
   <div class="ssv-cell ssv-text-bold">
     <span>Аргумент</span>
   </div>

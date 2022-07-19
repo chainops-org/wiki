@@ -3,7 +3,7 @@ ___
 <h3><span class="ssv-text-bg">registerValidator</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -69,7 +69,7 @@ ___
 <h3><span class="ssv-text-bg">updateValidator</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -136,7 +136,7 @@ ___
 <h3><span class="ssv-text-bg">removeValidator</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>

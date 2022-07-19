@@ -4,7 +4,7 @@ ___
 <br/>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -50,7 +50,7 @@ ___
 <h3><span class="ssv-text-bg">registerOperator</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -76,7 +76,7 @@ ___
 <h3><span class="ssv-text-bg">getOperatorById</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -121,7 +121,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -207,7 +207,7 @@ ___
 <h3><span class="ssv-text-bg">declareOperatorFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -244,7 +244,7 @@ ___
 <h3><span class="ssv-text-bg">executeOperatorFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -270,7 +270,7 @@ ___
 <h3><span class="ssv-text-bg">cancelDeclaredOperatorFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -297,7 +297,7 @@ ___
 <h3><span class="ssv-text-bg">getOperatorDeclaredFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -322,7 +322,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -348,7 +348,7 @@ ___
 <h3><span class="ssv-text-bg">getOperatorFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -372,7 +372,7 @@ ___
 <br/>
 <span>Возвращаемые значения</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>

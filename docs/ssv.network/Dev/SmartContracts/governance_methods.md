@@ -3,7 +3,7 @@ ___
 <h3><span class="ssv-text-bg">updateNetworkFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -30,7 +30,7 @@ ___
 <h3><span class="ssv-text-bg">getNetworkFee</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -57,7 +57,7 @@ ___
 <h3><span class="ssv-text-bg">withdrawNetworkEarnings</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -85,7 +85,7 @@ ___
 <h3><span class="ssv-text-bg">getNetworkEarnings</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -113,7 +113,7 @@ ___
 <h3><span class="ssv-text-bg">updateLiquidationThresholdPeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -141,7 +141,7 @@ ___
 <h3><span class="ssv-text-bg">getLiquidationThresholdPeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -169,7 +169,7 @@ ___
 <h3><span class="ssv-text-bg">updateOperatorFeeIncreaseLimit</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -197,7 +197,7 @@ ___
 <h3><span class="ssv-text-bg">getOperatorFeeIncreaseLimit</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -225,7 +225,7 @@ ___
 <h3><span class="ssv-text-bg">updateDeclareOperatorFeePeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -253,7 +253,7 @@ ___
 <h3><span class="ssv-text-bg">getDeclareOperatorFeePeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -281,7 +281,7 @@ ___
 <h3><span class="ssv-text-bg">updateExecuteOperatorFeePeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -309,7 +309,7 @@ ___
 <h3><span class="ssv-text-bg">getExecuteOperatorFeePeriod</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col  ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
@@ -337,7 +337,7 @@ ___
 <h3><span class="ssv-text-bg">updateOperatorScore</span></h3>
 <span>Параметры вызова</span>
 
-<div class="ssv-table-3col">
+<div class="ssv-table-3col ssv-table">
   <div class="ssv-cell ssv-text-bold">
     <span>Параметр</span>
   </div>
