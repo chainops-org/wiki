@@ -66,6 +66,28 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     border-right: none;
 }
 
+.ssv-marked-list__item{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.ssv-marked-list__icon-wrapper{
+    display: inline-flex;
+    background-color: rgb(27, 165, 248);
+    height: 18px;
+    width: 18px;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(27, 165, 248);
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.ssv-marked-list__icon{
+    color: rgb(255, 255, 255);
+}
+
+.ssv-marked-list__item-text{
+    margin-left: 0.5rem;
+}
 
 
 
