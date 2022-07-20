@@ -27,16 +27,16 @@
 Чтобы управлять остатками на счетах, оператор пула может вносить или снимать средства.
 
 
-* <a href="https://docs.ssv.network/developers/smart-contracts/account-methods#deposit">Депозит</a>
+* <a href="https://wiki.chainops.org/docs/ssv.network/Dev/SmartContracts/account_methods#:~:text=%D0%B2%20%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%B0%D1%85%20SSV-,deposit,-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0">deposit</a>
 
-* <a href="https://docs.ssv.network/developers/smart-contracts/account-methods#withdraw">Вывод</a>
+* <a href="https://wiki.chainops.org/docs/ssv.network/Dev/SmartContracts/account_methods#:~:text=SSV%2C%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%B5%D0%B6%D0%B0%D1%89%D0%B0%D1%8F%20%D0%B2%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%D1%8E-,withdraw,-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0">withdraw</a>
 
 
 **Повторная активация счета** - счета с недостаточным балансом для операций валидатора могут быть ликвидированы. 
 В неудачном случае, если учетная запись пула становится неплатежеспособной, оператор пула должен повторно активировать учетную запись вместе с дополнительными средствами, 
 чтобы возобновить работу своего валидатора (ов).
 
-* <a href="https://docs.ssv.network/developers/smart-contracts/account-methods#reactivateaccount">Повторно активировать учетную запись</a>
+* <a href="https://wiki.chainops.org/docs/ssv.network/Dev/SmartContracts/account_methods#:~:text=%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-,reactivateAccount,-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0">reactivateaccount</a>
 
 
 **Управление валидатором**
@@ -49,7 +49,7 @@
 чтобы перераспределить ключ валидатора и вызвать функцию обновления с новыми операторами и разделителями ключей.
 
 
-* <a href="https://docs.ssv.network/developers/smart-contracts/validators-methods#updatevalidator">Обновление Валидатора</a> ()
+* <a href="https://wiki.chainops.org/docs/ssv.network/Dev/SmartContracts/validators_methods#:~:text=%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B0(%D0%BD%D0%B5%20%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE)-,updateValidator,-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0">updatevalidator</a> ()
 
 
 
@@ -57,5 +57,5 @@
 чтобы поддерживать погашение пула пользователей в будущем или перейти на другую службу.
 
 
-* <a href="https://docs.ssv.network/developers/smart-contracts/validators-methods#removevalidator">Удалить Валидатора</a> ()
+* <a href="https://wiki.chainops.org/docs/ssv.network/Dev/SmartContracts/validators_methods#:~:text=%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D1%85%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B9%20keyshares.-,removeValidator,-%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0">removevalidator</a> ()
 
