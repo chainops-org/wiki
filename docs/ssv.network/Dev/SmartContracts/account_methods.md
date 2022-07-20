@@ -1,6 +1,6 @@
 # Методы модуля учетной записи
 ___
-<h3><span class="ssv-text-bg">getAddressBalance</span></h3>
+<h3 id="getAddressBalance"><span class="ssv-text-bg">getAddressBalance</span></h3>
 <br/>
 <span>Параметры вызова</span>
 
@@ -52,7 +52,7 @@ ___
 
 </div>
 
-<h3><span class="ssv-text-bg">deposit</span></h3>
+<h3 id="deposit"><span class="ssv-text-bg">deposit</span></h3>
 <br/>
 <span>Параметры вызова</span>
 <div class="ssv-table-3col  ssv-table">
@@ -87,7 +87,7 @@ ___
   </div>
 </div>
 
-<h3><span class="ssv-text-bg">withdraw</span></h3>
+<h3 id="withdraw"><span class="ssv-text-bg">withdraw</span></h3>
 <br/>
 <span>Параметры вызова</span>
 <div class="ssv-table-3col  ssv-table">
@@ -122,7 +122,7 @@ ___
   </div>
 </div>
 
-<h3><span class="ssv-text-bg">withdrawAll</span></h3>
+<h3 id="withdrawAll"><span class="ssv-text-bg">withdrawAll</span></h3>
 <br/>
 <span>Параметры вызова</span>
 <div class="ssv-table-3col  ssv-table">
@@ -147,7 +147,7 @@ ___
   </div>
 </div>
 
-<h3><span class="ssv-text-bg">reactivateAccount</span></h3>
+<h3 id="reactivateAccount"><span class="ssv-text-bg">reactivateAccount</span></h3>
 <br/>
 <span>Параметры вызова</span>
 <div class="ssv-table-3col  ssv-table">

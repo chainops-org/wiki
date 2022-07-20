@@ -66,7 +66,7 @@ ___
 </div>
 <br/>
 
-<h3><span class="ssv-text-bg">updateValidator</span></h3>
+<h3 id="updateValidator"><span class="ssv-text-bg">updateValidator</span></h3>
 <span>Параметры вызова</span>
 
 <div class="ssv-table-3col  ssv-table">
@@ -133,7 +133,7 @@ ___
 </div>
 <br/>
 
-<h3><span class="ssv-text-bg">removeValidator</span></h3>
+<h3 id="removeValidator"><span class="ssv-text-bg">removeValidator</span></h3>
 <span>Параметры вызова</span>
 
 <div class="ssv-table-3col  ssv-table">
